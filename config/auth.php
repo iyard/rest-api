@@ -68,7 +68,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Models\User::class,
         ],
 
         // 'users' => [
@@ -113,5 +113,7 @@ return [
     */
 
     'password_timeout' => 10800,
+
+    'api_token' => env('API_TOKEN', '123456789'),
 
 ];

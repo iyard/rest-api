@@ -1,7 +1,6 @@
 # Решение
 * git clone https://github.com/iyard/rest-api.git
 * make setup
-* make test
 * make start
 
 # Тестовое задание
